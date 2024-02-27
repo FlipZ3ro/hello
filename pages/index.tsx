@@ -28,7 +28,7 @@ export default function Home() {
         <div className="content">
           <span className="blur"></span>
           <span className="blur"></span>
-          <h1>Hi, I'm <span>Arapzz</span>, Web3 Enthusiastic</h1>
+          <h1>Hi, I&apos;m <span>Arapzz</span>, Web3 Enthusiastic</h1>
           <p>
             a 21 y/o , make money with crypto, information about Airdrops, Bounties, Testers, NFTs,. I love Trading open-source projects
           </p>   
@@ -46,7 +46,7 @@ export default function Home() {
             <span><i className="ri-youtube-line"></i></span>
             <h4>Youtube</h4>
             <p>
-              My tutorials Testnet in channel "arapzz.eth"
+              My tutorials Testnet in channel &quot;arapzz.eth&quot;
             </p>
             <a href="https://www.youtube.com/@arapzz">Join Now <i className="ri-arrow-right-line"></i></a>
           </div>
