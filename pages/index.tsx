@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -8,16 +9,15 @@ export default function Home() {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/images/icon.png" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css" />
-        <link rel="stylesheet" href="/style.css" />
       </Head>
 
       <nav>
         <div className="nav-logo">
           <a href="#">
-            <img src="/images/logo.png" alt="Logo" />
+            <Image src="/images/logo.png" alt="Logo" width={100} height={100} />
           </a>
         </div>
+
         <ul className="nav-links">
           <li className="link"><a href="#">Home</a></li>
           <li id="link1" className="link"><a href="#">Features</a></li>
@@ -35,7 +35,7 @@ export default function Home() {
           <button className="btn">Get Started</button>
         </div>
         <div className="image">
-          <img src="/images/header.png" alt="Header Image" />
+          <Image src="/images/header.png" alt="Header Image" width={400} height={400} />
         </div>
       </header>
 
@@ -74,7 +74,7 @@ export default function Home() {
         <span className="blur"></span>
         <div className="column">
           <div className="logo">
-            <img src="/images/logo.png" alt="Logo" />
+            <Image src="/images/logo.png" alt="Logo" width={100} height={100} />
           </div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           <div className="socials">
@@ -98,16 +98,14 @@ export default function Home() {
         <div className="column">
           <h4>Contact</h4>
           <a href="#">Contact Us</a>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms &amp; Conditions</a>
+          <a href="#">Privicy Policy</a>
+          <a href="#">Terms & Conditions</a>
         </div>
       </footer>
 
       <div className="copyright">
         Copyright © 2023 arapzz. All Rights Reserved.
       </div>
-
-      <script src="/script.js"></script>
     </div>
   );
 }
