@@ -15,7 +15,7 @@ export default function Home() {
       <nav>
         <div className="nav-logo">
           <a href="#">
-            <img src="/images/logo.png" />
+            <img src="/images/logo.png" alt="Logo" />
           </a>
         </div>
         <ul className="nav-links">
@@ -35,7 +35,7 @@ export default function Home() {
           <button className="btn">Get Started</button>
         </div>
         <div className="image">
-          <img src="/images/header.png" />
+          <img src="/images/header.png" alt="Header Image" />
         </div>
       </header>
 
@@ -74,7 +74,7 @@ export default function Home() {
         <span className="blur"></span>
         <div className="column">
           <div className="logo">
-            <img src="/images/logo.png" />
+            <img src="/images/logo.png" alt="Logo" />
           </div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           <div className="socials">
@@ -98,7 +98,7 @@ export default function Home() {
         <div className="column">
           <h4>Contact</h4>
           <a href="#">Contact Us</a>
-          <a href="#">Privicy Policy</a>
+          <a href="#">Privacy Policy</a>
           <a href="#">Terms &amp; Conditions</a>
         </div>
       </footer>
