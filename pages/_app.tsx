@@ -1,9 +1,17 @@
-import '../public/global.css'; // Sesuaikan dengan jalur file CSS global Anda
-import type { AppProps } from 'next/app'; // Import tipe AppProps dari 'next/app'
-import '../public/script.js'; // Tambahkan impor file JavaScript Anda di sini
+// Import CSS global
+import '../public/global.css';
 
-function MyApp({ Component, pageProps }: AppProps) { // Menggunakan tipe AppProps untuk menentukan tipe dari props
+// Import tipe AppProps dari Next.js
+import type { AppProps } from 'next/app';
+
+// Import file JavaScript
+import '../public/script.js';
+
+// Definisikan fungsi MyApp yang menerima properti AppProps
+function MyApp({ Component, pageProps }: AppProps) {
+  // Kembalikan komponen utama dengan properti pageProps
   return <Component {...pageProps} />;
 }
 
+// Ekspor default dari MyApp
 export default MyApp;
