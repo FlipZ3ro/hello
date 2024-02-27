@@ -6,8 +6,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Personal Portfolio</title>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        {/* Tidak perlu menyertakan link stylesheet di sini */}
         <link rel="icon" href="/images/icon.png" />
       </Head>
 
@@ -17,7 +16,6 @@ export default function Home() {
             <Image src="/images/logo.png" alt="Logo" width={100} height={100} />
           </a>
         </div>
-
         <ul className="nav-links">
           <li className="link"><a href="#">Home</a></li>
           <li id="link1" className="link"><a href="#">Features</a></li>
@@ -31,11 +29,13 @@ export default function Home() {
           <span className="blur"></span>
           <span className="blur"></span>
           <h1>Hi, I'm <span>Arapzz</span>, Web3 Enthusiastic</h1>
-          <p>a 21 y/o , make money with crypto, information about Airdrops, Bounties, Testers, NFTs,. I love Trading open-source projects</p>
-          <button className="btn">Get Started</button>
+          <p>
+            a 21 y/o , make money with crypto, information about Airdrops, Bounties, Testers, NFTs,. I love Trading open-source projects
+          </p>   
+          <button className="btn">Get Started</button>     
         </div>
         <div className="image">
-          <Image src="/images/header.png" alt="Header Image" width={400} height={400} />
+          <Image src="/images/header.png" alt="Header" width={500} height={500} />
         </div>
       </header>
 
@@ -45,26 +45,34 @@ export default function Home() {
           <div className="card">
             <span><i className="ri-youtube-line"></i></span>
             <h4>Youtube</h4>
-            <p>My tutorials Testnet in channel "arapzz.eth"</p>
+            <p>
+              My tutorials Testnet in channel "arapzz.eth"
+            </p>
             <a href="https://www.youtube.com/@arapzz">Join Now <i className="ri-arrow-right-line"></i></a>
           </div>
           <div className="card">
             <span><i className="ri-github-line"></i></span>
             <h4>Github</h4>
-            <p>Im work in github, please use it if you need</p>
-            <a href="https://github.com/arapzz">Join Now <i className="ri-arrow-right-line"></i></a>
+            <p>
+              Im work in github, please use it if you need
+            </p>
+            <a href="https://github.com/FlipZ3ro">Join Now <i className="ri-arrow-right-line"></i></a>
           </div>
           <div className="card">
             <span><i className="ri-twitter-x-line"></i></span>
             <h4>Twitter-X</h4>
-            <p>Share Airdrop Everyday in twitter</p>
+            <p>
+              Share Airdrop Everyday in twitter
+            </p>
             <a href="https://twitter.com/arapzz1">Join Now <i className="ri-arrow-right-line"></i></a>
           </div>
           <div className="card">
             <span><i className="ri-mail-line"></i></span>
             <h4>Contact Person</h4>
-            <p>contact my email if there is a problem</p>
-            <a href="mailto:arapzz.eth@gmail.com">Send Email<i className="ri-arrow-right-line"></i></a>
+            <p>
+              contact my email if there is a problem
+            </p>
+            <a href = "mailto: arapzz.eth@gmail.com">Send Email<i className="ri-arrow-right-line"></i></a>
           </div>
         </div>
       </section>
@@ -76,7 +84,9 @@ export default function Home() {
           <div className="logo">
             <Image src="/images/logo.png" alt="Logo" width={100} height={100} />
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
           <div className="socials">
             <a href="https://www.youtube.com/@arapzz"><i className="ri-youtube-line"></i></a>
             <a href="https://www.instagram.com/arapzz.eth"><i className="ri-instagram-line"></i></a>
@@ -106,6 +116,9 @@ export default function Home() {
       <div className="copyright">
         Copyright © 2023 arapzz. All Rights Reserved.
       </div>
+
+
+      <script src="/script.js" async></script>
     </div>
   );
 }
