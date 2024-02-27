@@ -28,7 +28,7 @@ export default function Home() {
         <div className="content">
           <span className="blur"></span>
           <span className="blur"></span>
-          <h1>Hi, I'm <span>Arapzz</span>, Web3 Enthusiastic</h1>
+          <h1>Hi, I&apos;m <span>Arapzz</span>, Web3 Enthusiastic</h1>
           <p>
             a 21 y/o , make money with crypto, information about Airdrops, Bounties, Testers, NFTs,. I love Trading open-source projects
           </p>   
@@ -56,7 +56,7 @@ export default function Home() {
             <p>
               Im work in github, please use it if you need
             </p>
-            <a href="https://github.com/FlipZ3ro">Join Now <i className="ri-arrow-right-line"></i></a>
+            <a href="https://github.com/arapzz">Join Now <i className="ri-arrow-right-line"></i></a>
           </div>
           <div className="card">
             <span><i className="ri-twitter-x-line"></i></span>
@@ -109,7 +109,7 @@ export default function Home() {
           <h4>Contact</h4>
           <a href="#">Contact Us</a>
           <a href="#">Privicy Policy</a>
-          <a href="#">Terms & Conditions</a>
+          <a href="#">Terms &amp; Conditions</a>
         </div>
       </footer>
 
