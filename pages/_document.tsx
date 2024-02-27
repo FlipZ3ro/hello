@@ -5,12 +5,13 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          {/* Tambahkan link stylesheet di sini menggunakan Document */}
-          <link rel="stylesheet" href="/style.css" />
+          {/* Tidak perlu menyertakan link stylesheet di sini */}
         </Head>
         <body>
           <Main />
           <NextScript />
+          {/* Tambahkan link stylesheet di sini menggunakan Document */}
+          <link rel="stylesheet" href="/style.css" />
         </body>
       </Html>
     );
