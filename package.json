@@ -1,6 +1,6 @@
 {
   "name": "arpz",
-  "version": "0.1.1",
+  "version": "1.1.1",
   "private": false,
   "scripts": {
     "dev": "next dev",
@@ -28,7 +28,7 @@
   "main": "postcss.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FlipZ3ro/hello.git"
+    "url": "https://github.com/FlipZ3ro/hello.git"
   },
   "keywords": [
     "hello",
