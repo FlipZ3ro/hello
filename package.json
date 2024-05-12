@@ -1,6 +1,6 @@
 {
   "name": "arpz",
-  "version": "1.1.3",
+  "version": "1.1.6",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -8,20 +8,49 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@airdropfind/airdropfind": "^1.1.7",
+    "@alvanero/alvanero_45": "^1.1.4",
+    "@alvanero/gosong45": "^1.1.4",
+    "@alvanero/pochi_lup": "^1.1.4",
+    "@arapzz/trx": "^1.0.2",
+    "@ariphsenpai/bandulan": "^1.0.0",
+    "@banteng01/keenantea": "^1.1.1",
+    "@cecenom/cece-teaxyz": "^1.1.6",
+    "@danielwang2x/esth00": "^1.3.2",
+    "@gotnxc/aceteh": "^1.1.2",
+    "@irwanma/sj008": "^1.1.2",
+    "@miranda4/putih": "^1.1.6",
+    "@mrmiff/esteh": "^1.1.9",
+    "@nabilabdilla/teh": "^1.0.0",
+    "@ndayywanda/aniitamaxwin": "^1.0.0",
+    "@peternakcupang/airdropfind": "^1.0.0",
+    "@ravelosers/shinigami": "^1.1.4",
+    "@tijandrri/teatijan2807": "^1.0.0",
+    "astrafind": "^1.0.0",
+    "bijikopipilihan": "^1.0.0",
+    "bueka": "*",
+    "fatoer": "^1.1.4",
+    "faturganteng": "^2.0.0",
+    "gosong45": "^1.1.4",
+    "next": "14.1.0",
+    "pochi_lup": "^1.1.4",
+    "pochi_lup1": "^1.1.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "spillthetea": "^3.3.5",
+    "tehkotak090": "^1.1.4",
+    "tragedi009": "^1.1.4"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "typescript": "^5"
   },
   "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
   "main": "postcss.config.js",
@@ -38,5 +67,5 @@
   "bugs": {
     "url": "https://github.com/FlipZ3ro/hello/issues"
   },
-  "homepage": "https://github.com/FlipZ3ro/hello#readme"
+  "homepage": "https://arapzz.vercel.app/"
 }
